@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "get-papers-list"
+version = "0.1.0"
+description = "Fetch research papers with pharma/biotech affiliations from PubMed"
+authors = ["Your Name <email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+biopython = "^1.83"
+
+[tool.poetry.scripts]
+get-papers-list = "get-papers-list:main"
